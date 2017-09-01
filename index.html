@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма с валидацией</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="myForm" action="https://api.myjson.com/bins/12s6s1"> <!-- success -> https://api.myjson.com/bins/12s6s1 ||| error -> https://api.myjson.com/bins/twtv5 ||| progress -> https://api.myjson.com/bins/p5d0x -->
+
+        <h1>Задание для школы Node.JS от Yandex</h1>
+        <p>
+            <label for="fio">ФИО </label>
+            <br>
+            <input id="fio" name="fio" type="text" placeholder="Иванов Иван Иванович"/></p>
+        <p>
+            <label for="email">Email </label>
+            <br>
+            <input id="email" name="email" type="email" placeholder="email@ya.ru"/>
+        </p>
+        <p>
+            <label for="phone">Телефон </label>
+            <br>
+            <input id="phone" name="phone" type="tel" placeholder="+7(111)111-11-11"/>
+        </p>
+
+        <button id="submitButton">Подтвердить</button>
+        <br>
+
+        <div id="resultContainer">
+        </div>
+
+    </form>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

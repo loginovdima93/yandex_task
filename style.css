@@ -1,0 +1,15 @@
+body {
+    text-align:center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+}
+input.error {
+    border: 1px solid red;
+}
+
+#resultContainer {
+    color: blue;
+}
